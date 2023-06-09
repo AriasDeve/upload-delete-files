@@ -13,11 +13,9 @@ for ($a = 2; $a < count($files); $a++)
 {
     ?>
     <p>
-        <!-- Displaying file name !-->
+
         <?php echo $files[$a]; ?>
 
-        <!-- href should be complete file path !-->
-        <!-- download attribute should be the name after it downloads !-->
         <a href="uploads/<?php echo $files[$a]; ?>" download="<?php echo $files[$a]; ?>">
             Download
         </a>
